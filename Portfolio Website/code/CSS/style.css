@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    height: 1500vh;
+    background-color: black;
+    color:white;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+li{
+    padding: 5px;
+}
+#menu{
+    font-size: 20px;
+    font-weight: bold;
+    border:2px solid transparent;
+}
+.nav-item:hover{
+    cursor: pointer;
+    border-bottom:3px solid darkgoldenrod;
+    transition: ease-in-out .8s;
+}
+/* 
+.nav-link:active{
+    color:yellow;
+} */
+#logo{
+    font-size: 25px;
+    font-weight: bolder;
+    text-shadow:  0 0 25px darkgoldenrod;
+}
+#logo:hover{
+    cursor: pointer;
+    border-bottom:3px solid darkgoldenrod;
+    transition: ease-in-out .8s;
+  
+}
+
+.heading{
+    font-size: 40px;
+    text-shadow: 30px 23px 5px white;
+}
+.heading:hover{
+    cursor: pointer;
+    transform:translateY(-10px);
+    transition : ease-in .5s;
+  
+}
+#ul{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card-body{
+    height: 370px;
+}                            
+#card{
+    height: 100px;
+}
+                            
+#card1{
+    height: 100px;
+}
+                            
+#card2{
+    height: 100px;
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 5px 5px 5px darkgoldenrod;
+  }    
+.span_icon{
+color: ghostwhite;
+font-size: 18px;
+font-weight: bold;
+}
+.btn:hover{
+    box-shadow: 10px 10px 10px darkgoldenrod;
+    background-color: yellow;
+
+}
+#btn1:hover{
+    box-shadow: 10px 10px 10px gray;
+
+}
+#Switch{
+    cursor: pointer;
+}
