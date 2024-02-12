@@ -1,0 +1,198 @@
+:root{
+    --green:#A2C579;
+    --wheat:#ffffff;
+    --whitesmoke:#f5f5f5;
+    --yellow:#D2DE32;
+    --brown:#FF5B22;
+
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 200vh;
+
+}
+.landing{
+    background-image: url("images/background.jpg");
+    background-size:cover;
+    background-position: center;
+    height:100vh;
+    color:white
+
+}
+header a{
+    text-decoration: none;
+    color:var(--yellow);
+    
+    
+}
+header{
+    display: flex;
+}
+#logo{
+    flex:4;
+    padding-top: .7em;
+    font-weight: bolder;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    flex:1.8;
+}
+nav a{
+    flex:0.4;
+    padding-top: .7em;
+    font-weight: bold;
+}
+nav a:hover{
+    color: #f5f5f5;
+    transform: scale(1.2,1.2);
+}
+.maintext{
+    display:flex;
+    flex-direction: column;
+    height:80vh;
+    justify-content: center;
+    padding: 3em;
+}
+
+.heading1{
+    font-size: 2.5em;
+    font-weight: bolder;
+    animation-name: heading;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading{
+    0%{
+        color:var(--whitesmoke);
+    }
+    25%{
+        color:#D2E0FB;
+    }
+    50%{
+        color:var(--green);
+    }
+    75%{
+        color:var(--yellow);
+    }
+    100%{
+        color:var(--whitesmoke);
+    }
+    
+}
+.heading2{
+    font-size: 1.5em;
+    color:rgb(251, 9, 58);
+    font-weight: lighter;
+    width:22ch;
+    animation: heading2 8s steps(32);
+    animation-iteration-count: infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes heading2{
+    from{
+        width:0;
+        color:var(--whitesmoke)
+    }
+    to{
+        border-color: transparent;
+        color: var(--yellow);
+    }
+}
+
+.heading3{
+    color:whitesmoke;
+}
+.maintext div{
+    margin-top: .5em;
+}
+.maintext button{
+    width:20vw;
+    border-radius: 10px;
+    padding: .7em;
+    margin-top: 2em;
+    background-color: var(--green);
+    color: white;
+    cursor: pointer;
+    border:1px solid var(--green);
+    font-size: 1rem;
+}
+.maintext a:link{
+text-decoration: none;
+}
+#btn{
+    color:var(--whitesmoke);
+    font-size: 1rem;
+    text-decoration: none;   
+}
+#h2{
+    color:var(--brown);
+    font-size:bold ;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 3%;
+}
+.brands{
+    position: absolute;
+    margin-top: 10%;
+    background-image:linear-gradient(to right,rgb(233, 224, 224),rgb(157, 157, 149));
+}
+
+.img{
+    border-radius:50%;
+    background-color: linear gradient;
+    width:200px;
+    height:200px;
+    position: absolute;
+    left:10vw;
+    background-image: url("images/tommy.jpg");
+    background-size: cover;
+}
+.img:hover{
+    transform:translateY(-10px) ;
+}
+.img1{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    position: absolute;
+    left:30vw;
+    background-image: url("images/polo.png");
+    background-size:cover ;
+}
+
+.img1:hover{
+   transform:translateY(-10px) ;
+}
+
+.img2{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    position: absolute;
+    left:50vw;
+    background-image: url("images/ray.jpg");
+    background-size:cover ;
+}
+
+.img2:hover{
+
+    transform:translateY(-10px) ;   
+}
+
+.img3{
+    border-radius:50%;
+    width:200px;
+    height:200px;
+    position: absolute;
+    left:70vw;
+    background-image: url("images/allen.jpg");
+    background-size:cover ;
+}
+
+.img3:hover{
+    transform:translateY(-10px) ;   
+}

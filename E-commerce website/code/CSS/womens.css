@@ -1,0 +1,153 @@
+:root{
+    --green:#A2C579;
+    --wheat:#ffffff;
+    --whitesmoke:#f5f5f5;
+    --yellow:#D2DE32;
+    --brown:#FF5B22;
+
+}
+
+#h4{
+    font-size: 3em;
+    color:var(--brown);
+    position: absolute;
+    margin-left: 42%;
+  }
+  
+.womens1{
+    width:1500px;
+    height: 800vh;
+    background-image:linear-gradient(to right,rgb(233, 224, 224),rgb(157, 157, 149));
+}
+
+.dress{
+    border-radius: 15px;
+    width:400px;
+    height: 500px;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 12%;
+    background-image:url("images/kurti.jpg") ;
+    background-size: cover;
+}
+.dress:hover{
+    transform: translateY(-15px);
+}
+a:link{
+    text-decoration: none;
+}
+
+#btns{
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    color:black;
+    cursor: pointer;
+}
+#btns:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+
+#btns1{
+    border-radius: 20px;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+#btns1:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+.dress1{
+    border-radius: 15px;
+    width:400px;
+    height: 500px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 35%;
+    background-image:url("images/saree.jpeg") ;
+    background-size: cover;
+}
+
+.dress1:hover{
+    transform: translateY(-15px);
+}
+#btns2{
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    cursor: pointer;
+}
+#btns2:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+
+#btns3{
+    border-radius: 20px;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+#btns3:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+.dress2{
+    border-radius: 15px;
+    width:400px;
+    height: 500px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 63%;
+    background-image:url("images/tshirt.jpg_2000Wx3000H") ;
+    background-size: cover;
+}
+.dress2:hover{
+    transform: translateY(-15px);
+}
+
+#btns4{
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    cursor: pointer;
+}
+#btns4:hover{
+    background-color: var(--green);
+}
+
+#btns5{
+    border-radius: 20px;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+#btns5:hover{
+    background-color: var(--green);
+}

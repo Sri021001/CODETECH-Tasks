@@ -1,0 +1,153 @@
+:root{
+    --green:#A2C579;
+    --wheat:#ffffff;
+    --whitesmoke:#f5f5f5;
+    --yellow:#D2DE32;
+    --brown:#FF5B22;
+
+}
+
+#h5{
+    font-size: 3em;
+    color:var(--brown);
+    position: absolute;
+    margin-left: 44%;
+  }
+  
+.kids1{
+    width:1500px;
+    height: 800vh;
+    background-image:linear-gradient(to right,rgb(233, 224, 224),rgb(157, 157, 149));
+}
+
+.costume{
+    border-radius: 15px;
+    width:400px;
+    height: 500px;
+    position: absolute;
+    margin-left: 6%;
+    margin-top: 12%;
+    background-image:url("images/boy.jpg") ;
+    background-size: cover;
+}
+.costume:hover{
+    transform: translateY(-15px);
+}
+a:link{
+    text-decoration: none;
+}
+
+#btnss{
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    color:black;
+    cursor: pointer;
+}
+#btnss:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+
+#btnss1{
+    border-radius: 20px;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+#btnss1:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+.costume1{
+    border-radius: 15px;
+    width:400px;
+    height: 500px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 35%;
+    background-image:url("images/girl.jpg") ;
+    background-size: cover;
+}
+
+.costume1:hover{
+    transform: translateY(-15px);
+}
+#btnss2{
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    cursor: pointer;
+}
+#btnss2:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+
+#btnss3{
+    border-radius: 20px;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+#btnss3:hover{
+    background-color: var(--green);
+    color: var(--whitesmoke);
+}
+.costume2{
+    border-radius: 15px;
+    width:400px;
+    height: 500px;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 63%;
+    background-image:url("images/kids.jpg") ;
+    background-size: cover;
+}
+.costume2:hover{
+    transform: translateY(-15px);
+}
+
+#btnss4{
+    border-radius: 20px;
+    width: 150px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    cursor: pointer;
+}
+#btnss4:hover{
+    background-color: var(--green);
+}
+
+#btnss5{
+    border-radius: 20px;
+    width: 120px;
+    padding: 8px;
+    text-decoration: none;
+    position: absolute;
+    margin-top: 34em;
+    margin-left: 17em;
+    cursor: pointer;
+}
+
+#btnss5:hover{
+    background-color: var(--green);
+}
