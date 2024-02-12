@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+
+/*------Navbar-------*/
+
+.bold{
+    font-size: 30px;
+    color:brown;
+}
+.bold:hover{
+    cursor: pointer;
+    color:darkblue;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-size: 15px;
+    font-weight: bold;
+    border:2px solid transparent;
+}
+.nav-link:hover{
+    cursor: pointer;
+    border-bottom: 2px solid blue;
+    transition: 1s;
+}
+  section{
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span{
+    font-size: 35px;
+    font-weight: bold;
+    color:darkblue;
+  }
+  span:hover{
+    color:brown;
+    transition: 1s;
+  }
+  p{
+    color:transparent;
+  }
+  p:hover{
+    color:crimson;
+    transition: 1s;
+  }
+  #icon{
+    color:blue;
+  }
+  #nav{
+    position: relative;
+    top:0;
+  }
+  .card{
+    border-radius:20% 20% 10% 10% ;
+    box-shadow: 5px 5px 2px 2px black;
+  }
+  .card-body{
+    background-color: lightgrey;
+    border-radius:5% 5% 0 0 ;
+    color:darkblue;
+  }
+  .card img{
+    height:300px;
+  }
+  #imgs{
+    height: 276px;
+  }
+  
+  #images{
+    height: 276px;
+  }
+  .inner{
+    overflow: hidden;
+  }
+  .card img:hover{
+    transform:scale(1.2);
+  }
+  #email{
+    border:transparent;
+  }
+  #pwd{
+    border:transparent;
+
+  }
